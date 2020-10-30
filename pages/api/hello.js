@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-const TeleBot = require("telebot");
-import TELEBOT from 'TeleBot'
+const TelegramBot = require('node-telegram-bot-api');
+import TELEBOT from 'TelegramBot'
 
 
 export default (req, res) => {
