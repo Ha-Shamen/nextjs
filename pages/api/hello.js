@@ -4,7 +4,7 @@ const TeleBot = require("telebot");
 export default (req, res) => {
   res.statusCode = 200
   res.json({ name: 'John Doe' })
-  console.log(req);
+  console.log(req.body);
 
 //   //instantiate Telebot with our token got in the BtFather
 //   const bot = new TeleBot({
